@@ -1,27 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Customer Health Agent - Traxión </title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header class="top-baner">
-        <nav>
-            <h1> Customer Health Agent - Traxión </h1>
+        <nav class="nav-container">
+            <h1 class="logo"> Customer Health Agent - Traxión </h1>
             <ul>
-                <li><a href=#que>¿Qué es el Customer Health?</a></li>
+                <li><a href=#que-es>¿Qué es el Customer Health?</a></li>
                 <li><a href=#funcionamiento>¿Cómo funciona?</a></li>
-                <li><a href=#semaforo>Semaforo</a></li>
+                <li><a href=#semaforo>Análisis de cliente</a></li>
             </ul>
         </nav>
-
     </header>
+
     <div class="container">
-        <h1> Customer Health Agent - Traxión </h1>
-        <p> Bienvenido a la página principal del Customer Health Agent de Traxión. Aquí encontrará información relevante sobre nuestros servicios y cómo podemos ayudarle a mantener la salud de sus clientes. </p>
-        <a href="services.html" class="btn"> Ver Servicios </a>
-    
+        <h1> Customer Health Agent - Detección temprana de clientes en riesgo </h1>
+        <p> Bienvenido a la página principal del Customer Health Agent de Traxión. Esta es una herramienta interna para
+            gerentes de cuentas como tú. Aquí se integran métricas operativas y de experiencia que ayudarán a anticipar
+            riesgos y priorizarán acciones preventivas </p>
+    </div>
+
+    <section id="que-es" class="section">
+        <h2> ¿Qué es el Customer Health? </h2>
+        <p> El Customer Health es una métrica compuesta que evalúa la salud general de la relación con un cliente, anted
+            de que exista una inconformidad formal. </p>
+    </section>
+
+    <section id="funcionamiento" class="section">
+        <h2> ¿Cómo funciona? </h2>
+        <ol>
+            <li>Ingresa métricas operativas y de experiencia del cliente.</li>
+            <li>El agente integrará las méticas y detectará tendencias negativas.</li>
+            <li>Se clasificará el nivel de riesgo del cliente.</li>
+            <li>Las acciones preventivas se recomendarán.</li>
+        </ol>
+    </section>
+
+    <section id="semaforo" class="section">
+        <h2> Análisis de cliente </h2>
+        <p> A continuación, se muestra el estado actual de tus clientes según el análisis del Customer Health Agent.
+        </p>
+
+        <section id="semaforo">
+            <aside class=metricas-aside>
+                <form class="metricas-form">
+                    <h3> Ingreso de Métricas</h3>
+                    <div class="form-grid">
+
+                        <label>Nivel de Servicio (%)</label>
+                        <input type="number" id="servicio" placeholder="Ej. 92">
+                        <label>Puntualidad (%)</label>
+                        <input type="number" id="puntualidad" placeholder="Ej. 96">
+                        <label>NPS (-100 a 100)</label>
+                        <input type="number" id="nps" placeholder="Ej. 40">
+                        <label>Quejas Abiertas</label>
+                        <input type="number" id="quejas" placeholder="Ej. 0">
+                        <button class="analizar-btn">Generar Diagnóstico</button>
+                </form>
+        </section>
+
+        <!-- Aquí irá el semaforo-->
+        <section class="diagnostico-section">
+            <h3> Diagnóstico del Cliente </h3>
+            <div class="acciones-div">
+                <h4>Acciones Preventivas:</h4>
+
+            </div>
+        </section>
+        </aside>
+    </section>
+
+
+
+    <!--Tal vez este semáforo es el que se vaya a quedar, checar después-->>
+    <div class="semaforo">
+        <span class="dot green"></span>
+        <span class="dot yellow"></span>
+        <span class="dot red"></span>
+    </div>
+
+    <p> El semáforo de color indica el estado actual del cliente según el análisis del Customer Health Agent. </p>
+    <p class="diagnostico"> </p>
+
+
 </body>
+
 </html>
