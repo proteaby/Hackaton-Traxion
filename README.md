@@ -58,6 +58,24 @@ Este repositorio contiene el proyecto web **Customer Health Agent – Traxión-D
 
 ---
 
+## 📺 Pantallas
+ - Se realizó una landing page, usando los colores que usa Traxión en su página principal
+ - Se cuenta con un menú de navegación, un vídeo de fondo haciendo referencia a la logística junto con información de introducción de nuestro proyecto
+ - La landing page es responsiva, adaptandose a cualquier pantalla
+ - De la mitad para abajo de la página, se tiene información de nuestro proyecto en cuanto a que es y como funciona
+ - Casi al final de la página se cuenta con un formulario (el cual es simulado), donde en un futuro se podría conectar a un agente de IA y ser totalmente funcional
+ - Al final de la página se tiene el nivel de riesgo detectado por el agente y las acciones preventivas que sugiere
+ - Por último, se cuenta con un footer de nuestra landing page
+ 
+
+---
+
+## 🎯 Alcance
+ - Se hizo uso solamente de HTML y CSS, con una mini simulación estática de lo que mostraría en caso de que el nivel diagnosticado sea alto
+
+---
+
+
 ## 👥 Equipo
 
 Este proyecto fue desarrollado de manera colaborativa por:
