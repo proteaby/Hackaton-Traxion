@@ -16,7 +16,6 @@ header,main{
 }
 
 
-
 .nav-container{
     max-width: 100vw;
     padding: 20px;
@@ -116,62 +115,6 @@ span:hover{
     flex: 1;
 }
 
-
-<<<<<<< HEAD
-}
-.seccion-semaforo{
-    background-color: #f4f6f8;
-    padding: 60px 5%;
-}
-
-.metricas-form{
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    max-width: 450px;
-    margin-top: 20px;
-}
-
-.metricas-form h3{
-    margin-bottom: 20px;
-    color: #53565a;
-}
-
-.form-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 12px;
-}
-
-.metricas-form input{
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-}
-
-.analizar-btn{
-    margin-top: 15px;
-    padding: 12px;
-    background-color: #d0df00;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 6px;
-}
-
-.analizar-btn:hover{
-    background-color: #b5c202;
-}
-
-.footer{
-    background-color: #63666a;
-    color: white;
-    text-align: center;
-    padding: 30px 15%;
-    font-size: 14px;
-}
-=======
 #semaforo {
     padding: 60px 20px;
     background-color: #f4f4f4;
@@ -308,4 +251,4 @@ span:hover{
     line-height: 1.6;
     color: #bbbbbb;
 }
->>>>>>> a00d0d2 (Diseño de form, footer y diagnostico)
+
