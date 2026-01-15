@@ -55,7 +55,8 @@
                         relación con un
                         cliente,
                         antes
-                        de que exista una inconformidad formal. </p>
+                        de que exista una inconformidad formal. Esto se hace mediante un agente de IA que ayuda a
+                        determinar el nivel de riesgo del cliente.</p>
                 </div>
             </section>
 
@@ -71,17 +72,15 @@
                     </ol>
                 </div>
                 <img src="./img/como-funciona.png" alt="Imagen de como funciona">
-
             </section>
         </div>
 
         <section id="semaforo">
+            <aside>
             <h2> Análisis de cliente </h2>
-            <p> A continuación, se muestra el estado actual de tus clientes según el análisis del Customer Health Agent.
+            <p> A continuación, agregue las métricas para saber estado actual de tus clientes según el análisis mediante el Customer Health Agent.
             </p>
-
-            <section id="semaforo">
-                <aside class=metricas-aside>
+                
                     <form class="metricas-form">
                         <h3> Ingreso de Métricas</h3>
                         <div class="form-grid">
@@ -95,31 +94,38 @@
                             <label>Quejas Abiertas</label>
                             <input type="number" id="quejas" placeholder="Ej. 0">
                             <button class="analizar-btn">Generar Diagnóstico</button>
+                        </div>
                     </form>
+                </aside>
             </section>
 
-            <!-- Aquí irá el semaforo-->
+
+
             <section class="diagnostico-section">
-                <h3> Diagnóstico del Cliente </h3>
-                <div class="acciones-div">
-                    <h4>Acciones Preventivas:</h4>
-
-                </div>
+                <aside>
+                    <h3>Diagnóstico del Cliente</h3>
+                    <div class="nivel-riesgo">
+                        <p><strong>Nivel de riesgo:</strong> <span class="riesgo-alto">Alto</span></p>
+                    </div>
+                    <p>
+                        El cliente presenta una combinación de bajo nivel de servicio y múltiples quejas abiertas,
+                        lo que indica un riesgo elevado de inconformidad si no se atiende de forma inmediata.
+                    </p>
+                </aside>
             </section>
-            </aside>
-        </section>
 
+            <section class="acciones-preventivas">
+                <h4>Acciones preventivas sugeridas</h4>
+                <ul class="acciones-lista">
+                    <li>Atención inmediata por el ejecutivo responsable</li>
+                    <li>Contacto directo o visita técnica al cliente</li>
+                    <li>Elaboración de un plan de recuperación del servicio</li>
+                    <li>Seguimiento semanal del estado del cliente</li>
+                    <li>Cierre prioritario de quejas abiertas</li>
+                </ul>
 
+            </section>
 
-        <!--Tal vez este semáforo es el que se vaya a quedar, checar después-->>
-        <div class="semaforo">
-            <span class="dot green"></span>
-            <span class="dot yellow"></span>
-            <span class="dot red"></span>
-        </div>
-
-        <p> El semáforo de color indica el estado actual del cliente según el análisis del Customer Health Agent. </p>
-        <p class="diagnostico"> </p>
 
 
 
