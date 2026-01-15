@@ -252,3 +252,122 @@ span:hover{
     color: #bbbbbb;
 }
 
+
+/* AJUSTES BASE RESPONSIVE */
+
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* TABLETS (≤1024px) */
+
+
+@media (max-width: 1024px) {
+
+    #introduccion {
+        font-size: 24px;
+        padding: 15% 5%;
+    }
+
+    #introduccion p {
+        width: 100%;
+    }
+
+    .seccion-acerca {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .seccion-acerca img {
+        width: 80%;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .analizar-btn {
+        grid-column: span 1;
+    }
+}
+
+
+/* MÓVILES (≤768px) */
+
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-lista {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #logo-img {
+        width: 120px;
+    }
+
+    .container {
+        height: auto;
+        min-height: 70vh;
+    }
+
+    #introduccion {
+        font-size: 20px;
+        padding: 20% 6%;
+    }
+
+    #introduccion h1 {
+        margin-bottom: 25px;
+    }
+
+    #semaforo aside,
+    .diagnostico-section,
+    .acciones-preventivas {
+        padding: 25px;
+        margin: 20px;
+    }
+
+    .acciones-lista li {
+        font-size: 14px;
+    }
+
+    .riesgo-alto {
+        font-size: 18px;
+    }
+}
+
+
+/* (≤480px) */
+
+
+@media (max-width: 480px) {
+
+    #introduccion {
+        font-size: 18px;
+    }
+
+    .metricas-form h3 {
+        font-size: 18px;
+    }
+
+    .acciones-preventivas h4 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
