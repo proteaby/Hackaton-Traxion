@@ -101,30 +101,34 @@ span:hover{
 }
 
 #acerca-de{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 120px;
-    gap: 3%;
-    padding: 20px;
+  
 }
 
 .seccion-acerca{
-    text-align: center;
-    border-radius: 50px;
     
 }
 .seccion-acerca ol {
-    display: inline-block;
 }
 
 
-#que-es{
-    grid-column: 1/2;
+.seccion-acerca{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.seccion-acerca p,.seccion-acerca li{
+    padding-top:2%;
+}
+.seccion-acerca img{
+    width: 50%;
+}
+.acerca-de-contenido{
+    flex: 1;
 }
 
 #funcionamiento{
-    grid-column: 2/3;
-
 }
 #semaforo{
 
