@@ -54,6 +54,7 @@ header,main{
     justify-content: center;
     height:  90vh;
     position: relative;
+
 }
 #container-gray{
     display: flex;
@@ -271,13 +272,25 @@ body {
 
 @media (max-width: 1024px) {
 
+    .container{
+    margin-bottom: 10px;
+
+    }
+
     #introduccion {
         font-size: 24px;
         padding: 15% 5%;
+
     }
 
+    #introduccion h1{
+        font-size: 90%;
+
+    }
     #introduccion p {
         width: 100%;
+        font-size: 70%;
+
     }
 
     .seccion-acerca {
@@ -321,12 +334,16 @@ body {
 
     .container {
         height: auto;
-        min-height: 70vh;
+        min-height: 28vh;
     }
 
     #introduccion {
         font-size: 20px;
         padding: 20% 6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #introduccion h1 {
