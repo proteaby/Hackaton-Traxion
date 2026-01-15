@@ -83,6 +83,14 @@ header,main{
     padding: 10% 3%;
 }
 
+span{
+    color: #d0df00;
+}
+span:hover{
+    color: #b5c202;
+    transition: .15s;
+}
+
 #introduccion h1{
     margin-bottom: 50px;
     
