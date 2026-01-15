@@ -128,10 +128,8 @@ span:hover{
     flex: 1;
 }
 
-#funcionamiento{
-}
-#semaforo{
 
+<<<<<<< HEAD
 }
 .seccion-semaforo{
     background-color: #f4f6f8;
@@ -185,3 +183,141 @@ span:hover{
     padding: 30px 15%;
     font-size: 14px;
 }
+=======
+#semaforo {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#semaforo aside {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.05);
+}
+
+.metricas-form h3 {
+    margin-bottom: 25px;
+    color: #d0df00;
+    font-size: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.form-grid label {
+    font-weight: bold;
+    color: #63666a;
+}
+
+.form-grid input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    transition: border 0.3s;
+}
+
+.form-grid input:focus {
+    border: 2px solid #d0df00;
+    outline: none;
+}
+
+.analizar-btn {
+    grid-column: span 2; 
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #4a4d45;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.analizar-btn:hover {
+    background-color: #d0df00;
+    color: #53565a;
+    box-shadow: 0px 5px 15px rgba(208, 223, 0, 0.4);
+}
+
+
+.diagnostico-section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-left: 10px solid #ff4d4d; 
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.05);
+}
+
+.riesgo-alto {
+    color: #ff4d4d;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.acciones-preventivas {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #53565a;
+    color: white;
+    border-radius: 15px;
+}
+
+.acciones-preventivas h4 {
+    color: #d0df00;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.acciones-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.acciones-lista li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.acciones-lista li::before {
+    content: "➜";
+    margin-right: 15px;
+    color: #d0df00;
+}
+
+.nota-agente {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+
+.footer {
+    background-color: #2d2d2d;
+    padding: 40px 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbbbbb;
+}
+>>>>>>> a00d0d2 (Diseño de form, footer y diagnostico)
